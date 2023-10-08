@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* Navbar */
+
+
+.custom_navbar .navbar-brand {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: 'Lobster', cursive;
+    color: black;
+    padding: 0 15px;
+
+}
+
+.custom_navbar .nav-link {
+    /* margin: 0px 10px; */
+    margin: 0 10px;
+    color: black;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.custom_navbar .nav-item a:hover {
+    color: green;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.custom_navbar .search {
+
+    padding: 5px;
+    border: 2px solid green;
+    outline: none;
+    border-radius: 60px;
+    text-align: center;
+}
+
+.custom_navbar .Search-btn {
+    outline: none;
+    padding: 5px;
+    width: 80px;
+    background-color: rgba(9, 221, 9, 0.445);
+    border: 2px solid green;
+    border-radius: 60px;
+    font-weight: 500;
+
+}
+
+@media (max-width:800px) {
+    .custom_navbar .nav-search{
+        display: none;
+    }
+}
+
+.custom_navbar .nav-icon .fa-solid {
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 15px;
+
+}
+
+.custom_navbar .nav-icon .fa-solid:hover {
+    color: green;
+}
+
+
+.MyScrollspy .navbar-nav .nav-link.active,
+.MyScrollspy .navbar-nav .nav-link.show {
+    color: green;
+    font-size: 18px;
+
+}
+
+
+/* Banner */
+
+.custom_banner {
+    background-image: url('images/banner01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+.custom_banner h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px rgb(6, 126, 6);
+    
+    
+}
+
+.banner-btn {
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(6, 126, 6);
+    border-radius: 60px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Rubik', sans-serif;
+    box-shadow: 2px 2px 3px black;
+}
+
+/* media queries for banner & icon */
+
+@media ( max-width:491px ) {
+    .custom_banner h1 {
+       font-size: 1.5rem;
+    }
+}
+
+@media ( min-width:492px ) and (max-width:876px) {
+    .custom_banner h1 {
+        font-size: 1.5rem;  
+     }
+}
+
+
+
+
+/* organic-icon */
+
+.organic-icon img {
+    width: 20%;
+    margin-bottom: 10px;
+}
+
+.organic-icon h6 {
+    color: green;
+}
+@media ( max-width:491px ) {
+    .organic-icon h6 {
+          font-size: 10px
+    }
+}
+@media ( min-width:492px ) and (max-width:876px) {
+    .organic-icon h6 {
+        font-size: 13px
+    }
+}
+
+
+
+
+
+/* Trending */
+.custom_trending h1 {
+    font-weight: 700;
+
+}
+
+.custom_trending .card img {
+    width: 130px;
+    height: 130px;
+    margin: auto;
+}
+
+.custom_trending .card img:hover {
+    transform: scale(1.15);
+}
+
+.custom_trending .card:hover {
+    box-shadow: 2px 1px 5px 1px green;
+}
+
+.custom_trending .btn {
+    box-shadow: 3px 3px 5px black;
+}
+
+
+
+/* about */
+
+.custom_about h1 {
+    font-weight: 700;
+
+}
+
+.custom_about .banner-img {
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.custom_about .model-img {
+    width: 100vw;
+    height: 60vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+.custom_about .goal-img {
+    width: 30vw;
+    height: 30vh;
+}
+
+
+@media ( max-width:491px ) {
+    .custom_about p {
+          font-size: 12px;
+          line-height 12px;
+    }
+
+    .custom_about h4{
+        font-size: 18px;
+    }
+}
+@media ( min-width:492px ) and (max-width:876px) {
+    .custom_about p {
+        font-size: 14px;
+        line-height 12px;
+  }
+  .custom_about h4{
+    font-size: 20x;
+}
+}
+
+
+
+/* contact */
+
+.custom_contect h1 {
+    font-weight: 700;
+}
+
+.custom_contect h5 {
+    color: green;
+}
+
+
+
+/* footer */
+
+.custom_footer {
+    background-color: black;
+    color: white;
+}
+
+.custom_footer h1 {
+    color: white;
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.custom_footer .btn-send {
+    width: 80px;
+    height: 45px;
+    background-color: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+
+}
+
+.custom_footer input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+}
+
+
+.custom_footer h5 {
+    color: green;
+}
+
+.custom_footer a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.custom_footer p {
+    margin: 0;
+
+}
+
+.custom_footer .fa-brands {
+    color: white;
+    font-size: 2rem;
+    padding: 5px;
+}
+
+
+
+
+
+/* media queory */
+
+@media (max-width:491px) {
+
+
+
+    /* about */
+    .custom_about h5 {
+        margin-top: 20px;
+    }
+
+    .custom_about .model-img {
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .custom_about .goal-img {
+        width: 50vw;
+        height: 20vh;
+    }
+
+    .custom_about .banner-img {
+        width: 100vw;
+        height: 20vh;
+
+    }
+
+
+
+
+}
+
+
+
+@media (min-width:492px) and (max-width:876px) {
+
+
+
+    /* about */
+    .custom_about h5 {
+        margin-top: 20px;
+    }
+
+    .custom_about .goal-img {
+        width: 50vw;
+        height: 20vh;
+    }
+}
+
+
+
+
+
+
+/* side space 
+
+ @media only screen and ('max-width:768px') {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        
+    }
+
+} 
+
+*/
